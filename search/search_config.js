@@ -1,1 +1,0 @@
-var s_config = [{"indexing":"full","lang":["en"],"min_search_length":3,"prebuild_index":false,"separator":"[\\s\\-]+"}]
