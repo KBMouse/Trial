@@ -1,0 +1,21 @@
+/* 搜索结果增强样式 */
+
+/* 多关键词全命中的结果高亮 */
+.md-search-result__item[data-match-terms] {
+  border-left: 3px solid var(--md-primary-fg-color, #4051b5);
+  padding-left: 0.5rem;
+}
+
+/* 提升标题与摘要的对比 */
+.md-search-result__item .md-search-result__title {
+  font-weight: 600;
+}
+
+.md-search-result__item .md-search-result__teaser {
+  color: var(--md-default-fg-color--light);
+}
+
+/* 当存在多关键词时，给全命中项更强的视觉提示 */
+.md-search-result__item--exact {
+  background-color: var(--md-primary-fg-color--transparent, rgba(64, 81, 181, 0.05));
+}
